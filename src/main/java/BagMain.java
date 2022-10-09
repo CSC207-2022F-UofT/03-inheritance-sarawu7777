@@ -18,6 +18,7 @@ class BagMain {
         // TODO: Implement this.
         for (Bag bag:bags){
             bag.enhance();
+            // if True, enhance again.
             if (double_enhance_handbags){bag.enhance();}
         }
     }
